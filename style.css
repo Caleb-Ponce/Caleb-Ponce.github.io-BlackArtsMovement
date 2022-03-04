@@ -18,6 +18,26 @@ header h1 {
     
 }
 
+/* Links */
+
+    /* General */
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    transition: 0.3s;
+    background-color: rgb(102, 61, 8);
+    color: white;
+}
+
+a:visited {
+    color: rgb(150, 98, 30);
+}
+
+    /* Navigation */
+
 nav {
     float: none;
     width: auto;
@@ -30,20 +50,9 @@ nav li {
 }
 
 nav a {
-    text-decoration: none;
     padding: 0 20px;
 }
 
 nav a:link {
     color: black;
-}
-
-nav a:visited {
-    color: rgb(150, 98, 30);
-}
-
-nav a:hover {
-    transition: 0.3s;
-    background-color: rgb(102, 61, 8);
-    color: white;
 }
