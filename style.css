@@ -60,3 +60,7 @@ nav a:link {
 nav a:visited {
     color: rgb(150, 98, 30);
 }
+#column{
+    float: left;
+    width: 30%;
+}
