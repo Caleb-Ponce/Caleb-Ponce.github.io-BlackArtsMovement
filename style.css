@@ -63,4 +63,10 @@ nav a:visited {
 #column{
     float: left;
     width: 30%;
+    text-align: left;
+}
+#title{
+    text-align: center;
+    
+    font-size: 24pt;
 }
