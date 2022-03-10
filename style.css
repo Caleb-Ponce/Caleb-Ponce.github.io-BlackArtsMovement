@@ -70,3 +70,51 @@ nav a:visited {
     
     font-size: 24pt;
 }
+#clear {
+    clear: both;
+}
+img{
+    float: left;
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: brown;
+}
+#imgcolumn{
+    float: right;
+    width: 30%;
+    text-align: left;
+    margin-right: 80px;
+}
+#columnweird{
+    float: none;
+    width: 35%;
+    text-align: left;
+}
+#video {
+    float: right;
+    margin-bottom: 100px;
+    width: 40%;
+}
+#time {
+    border-style: solid;
+    border-radius: 20px;
+    border-width: 5px;
+    border-color: brown;
+}
+#bio {
+    text-align: left;
+    float: left;
+    width: 50%;
+    margin-left: 10%;
+}
+#profile {
+    float: right;
+    width: auto;
+    height: 180px;
+    margin-right: 20%;
+}
+#intro {
+    width: 50%;
+    margin: auto;
+}
